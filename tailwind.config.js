@@ -10,7 +10,7 @@ module.exports = {
             robotomono: "'Roboto Mono',monospace",
          },
          backgroundImage: {
-            hero: "url('/images/ctabg.png')",
+            hero: "url('/images/ctabg.gif')",
          },
       },
    },
