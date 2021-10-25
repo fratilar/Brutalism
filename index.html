@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script src="https://kit.fontawesome.com/6fdbf9550e.js" crossorigin="anonymous"></script>
+      <title>Brutalism site</title>
+      <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+      <link rel="stylesheet" href="./public/tailwind.css" />
+   </head>
+   <body>
+      <div class="2xl:container 2xl:mx-auto">
+         <!-- ********MENU PAGE******** -->
+         <div
+            id="menu"
+            class="
+               min-h-screen
+               transform
+               -translate-x-full
+               transition
+               duration-300
+               ease-out
+               fixed
+               inset-0
+               bg-white
+               z-50
+            "
+         >
+            <div class="p-8 lg:px-24 xl:px-32">
+               <!-- ********NAVBAR******** -->
+               <nav class="flex items-center justify-between">
+                  <div>
+                     <a href="./index.html">
+                        <img src="./images/logo black.png" alt="logo" class="cursor-pointer" />
+                     </a>
+                  </div>
+                  <div>
+                     <i id="closeBtn" class="fas fa-times text-2xl cursor-pointer"></i>
+                  </div>
+               </nav>
+               <div class="lg:ml-28">
+                  <ul class="mt-16 lg:mt-14 space-y-10 lg:space-y-5 text-[#1e252c]">
+                     <li>
+                        <a
+                           href=""
+                           class="inline-flex items-center text-4xl leading-[70px] font-semibold font-eczar space-x-5"
+                        >
+                           <p class="font-poppins text-xs -rotate-90 h-5">01</p>
+                           <h2 class="link-work active text-[52px] lg:font-semibold lg:leading-[92px]">Projects</h2>
+                        </a>
+                     </li>
+                     <li>
+                        <a
+                           href="./about.html"
+                           class="inline-flex items-center text-4xl leading-[70px] font-semibold font-eczar space-x-5"
+                        >
+                           <p class="font-poppins text-xs -rotate-90 h-5">02</p>
+                           <h2 class="link-work text-[52px] lg:font-semibold lg:leading-[92px]">About</h2>
+                        </a>
+                     </li>
+                     <li>
+                        <a
+                           href=""
+                           class="inline-flex items-center text-4xl leading-[70px] font-semibold font-eczar space-x-5"
+                        >
+                           <p class="font-poppins text-xs -rotate-90 h-5">03</p>
+                           <h2 class="link-work text-[52px] lg:font-semibold lg:leading-[92px]">Blog</h2>
+                        </a>
+                     </li>
+                     <li>
+                        <a
+                           href="./contact.html"
+                           class="inline-flex items-center text-4xl leading-[70px] font-semibold font-eczar space-x-5"
+                        >
+                           <p class="font-poppins text-xs -rotate-90 h-5">04</p>
+                           <h2 class="link-work text-[52px] lg:font-semibold lg:leading-[92px]">Contact us</h2>
+                        </a>
+                     </li>
+                  </ul>
+                  <p
+                     class="
+                        mt-5
+                        uppercase
+                        text-xs
+                        tracking-[3px]
+                        font-poppins
+                        p-1
+                        inline-block
+                        border-b-2 border-[#1e252c]
+                     "
+                  >
+                     email us. we need a coffee
+                  </p>
+                  <div class="flex items-center text-xl text-[#1e252c] text-stroke pt-10">
+                     <i class="cursor-pointer fab fa-facebook-f"></i>
+                     <i class="cursor-pointer mx-4 fab fa-twitter"></i>
+                     <i class="cursor-pointer fab fa-instagram"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- ********NAVBAR******** -->
+         <div class="p-8 lg:px-24 xl:px-32">
+            <nav class="flex items-center justify-between">
+               <div>
+                  <a href="./index.html">
+                     <img src="./images/logo black.png" alt="logo" class="cursor-pointer" />
+                  </a>
+               </div>
+               <div class="flex items-center">
+                  <h1 class="uppercase text-xs pr-4 tracking-widest font-medium text-gray-600 font-poppins">Menu</h1>
+                  <img id="menuBtn" class="cursor-pointer" src="./images/hamburger menu.png" alt="menu" />
+               </div>
+            </nav>
+         </div>
+         <!-- ********HERO SECTION******** -->
+         <main>
+            <div class="relative">
+               <div class="relative md:inline-flex items-center px-8 lg:px-24 xl:px-32 z-40">
+                  <h1
+                     class="
+                        font-eczar
+                        text-[60px]
+                        md:text-[86px]
+                        lg:text-[120px]
+                        leading-[150px]
+                        font-semibold
+                        text-[#1E252C] text-center
+                        mt-9
+                     "
+                  >
+                     Brutalism
+                  </h1>
+                  <div class="inline-flex items-center ml-11 h-6 border-b border-[#1E252C] lg:mt-8 md:mt-10 group">
+                     <a
+                        href="#"
+                        class="
+                           uppercase
+                           text-[#1E252C] text-xs
+                           leading-5
+                           tracking-widest
+                           font-poppins font-normal
+                           mr-2
+                           group-hover:text-black
+                        "
+                     >
+                        Access now
+                     </a>
+                     <img
+                        src="./images/Combined Shape.png"
+                        alt="arrow"
+                        class="w-4 h-1 cursor-pointer relative group-hover:translate-x-1"
+                     />
+                  </div>
+               </div>
+               <img
+                  src="./images/heroimage.png"
+                  class="w-full h-[531px] object-cover mt-[-100px] md:mt-[-70px] lg:hidden"
+               />
+               <div
+                  class="
+                     absolute
+                     bottom-44
+                     lg:bottom-[-154px] lg:-right-20
+                     xl:-right-12
+                     z-10
+                     -right-36
+                     rotate-90
+                     font-semibold font-eczar
+                     text-[74px] text-[#1E252C] text-stroke
+                  "
+               >
+                  from And Co
+               </div>
+            </div>
+            <!-- Swiper JS -->
+            <div class="swiper hidden lg:block mt-[-70px] z-0">
+               <!-- Additional required wrapper -->
+               <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                     <img src="./images/heroimage.png" class="w-full h-full object-cover" />
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="./images/OCR-L-Margaritas-0502-1-1.jpg" class="w-full h-full object-cover" />
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="./images/Pancakes-04483-2-scaled.jpg" class="w-full h-full object-cover" />
+                  </div>
+                  <div class="swiper-slide"><img src="./images/unnamed.jpg" class="w-full h-full object-cover" /></div>
+               </div>
+
+               <!-- If we need pagination -->
+               <div class="swiper-pagination absolute left-7 !top-0"></div>
+            </div>
+            <!-- End of Swiper JS -->
+         </main>
+         <!-- ********PROJECTS******** -->
+         <section class="p-8 lg:p-0">
+            <div class="relative">
+               <h6
+                  class="
+                     font-eczar
+                     text-[60px]
+                     md:text-[86px]
+                     font-semibold
+                     text-[#1E252C] text-stroke
+                     leading-[85px]
+                     mt-10
+                     lg:px-24
+                     xl:px-32
+                     lg:mt-20
+                     tracking-widest
+                  "
+               >
+                  Our Projects
+               </h6>
+               <div class="grid lg:grid-flow-col lg:auto-cols-max lg:items-center lg:justify-end">
+                  <div class="h-[415px] lg:w-[420px] mt-16 lg:order-3 col-span-2 xl:w-[528px] xl:h-[554px]">
+                     <img src="./images/work_avocado.png" alt="work avocado" id="work-img" class="h-full w-full" />
+                  </div>
+                  <div
+                     class="hidden lg:block lg:w-48 xl:w-64 h-[0.1rem] bg-black lg:order-2 mt-10 -mr-6 xl:ml-40 z-10"
+                  ></div>
+                  <ul class="mt-10 lg:order-1 lg:scale-75 xl:scale-100">
+                     <li class="ml-14">
+                        <a href="" class="flex text-4xl leading-[70px] font-semibold font-eczar space-x-5">
+                           <p class="text-stroke lg:font-poppins lg:text-xs lg:-rotate-90">01</p>
+                           <h2 class="link-work lg:text-[52px] lg:font-semibold lg:leading-[92px]">Margarita</h2>
+                        </a>
+                     </li>
+                     <li class="ml-14">
+                        <a href="" class="flex text-4xl leading-[70px] font-semibold font-eczar space-x-5">
+                           <p class="text-stroke lg:font-poppins lg:text-xs lg:-rotate-90">02</p>
+                           <h2 class="link-work lg:text-[52px] lg:font-semibold lg:leading-[92px]">Toasts</h2>
+                        </a>
+                     </li>
+                     <li class="lg:ml-14">
+                        <a href="" class="flex text-4xl leading-[70px] font-semibold font-eczar space-x-5">
+                           <p class="lg:font-poppins lg:text-xs lg:-rotate-90 lg:text-[#1e252c]">03</p>
+                           <h2 class="link-work active lg:text-[52px] lg:font-semibold lg:leading-[92px]">
+                              Avocado Club
+                           </h2>
+                        </a>
+                     </li>
+                     <li class="ml-14">
+                        <a href="" class="flex text-4xl leading-[70px] font-semibold font-eczar space-x-5">
+                           <p class="text-stroke lg:font-poppins lg:text-xs lg:-rotate-90">04</p>
+                           <h2 class="link-work lg:text-[52px] lg:font-semibold lg:leading-[92px]">Pancakes</h2>
+                        </a>
+                     </li>
+                     <li class="ml-14">
+                        <a href="" class="flex text-4xl leading-[70px] font-semibold font-eczar space-x-5">
+                           <p class="text-stroke lg:font-poppins lg:text-xs lg:-rotate-90">05</p>
+                           <h2 class="link-work lg:text-[52px] lg:font-semibold lg:leading-[92px]">Figs Fever</h2>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div
+                  class="
+                     hidden
+                     lg:block
+                     absolute
+                     -rotate-90
+                     lg:top-[270px]
+                     xl:top-[330px]
+                     -left-6
+                     text-xs text-[#1e252c]
+                     font-poppins
+                     tracking-widest
+                     uppercase
+                     opacity-30
+                  "
+               >
+                  made by and co
+               </div>
+            </div>
+
+            <ul
+               class="
+                  hidden
+                  lg:flex
+                  items-center
+                  space-x-5
+                  uppercase
+                  font-poppins
+                  text-xs
+                  leading-10
+                  tracking-widest
+                  justify-end
+                  text-[#1E252C]
+                  lg:mr-9
+                  xl:mr-16
+                  py-10
+               "
+            >
+               <li class="transform hover:scale-110"><a href="">home</a></li>
+               <li class="w-9 h-[1px] bg-[#1E252C]"></li>
+               <li class="transform hover:scale-110"><a href="" class="hover:scale-105">about us</a></li>
+               <li class="w-9 h-[1px] bg-[#1E252C]"></li>
+               <li class="transform hover:scale-110"><a href="" class="hover:scale-105">contact us</a></li>
+            </ul>
+         </section>
+         <!-- ********SERVICES******** -->
+         <section class="p-8 lg:px-24 xl:px-32 bg-[#1e252c] text-white lg:flex justify-between items-start">
+            <div class="">
+               <h1 class="font-eczar text-[60px] md:text-[86px] font-semibold text-stroke-white leading-[85px] mt-10">
+                  Our <br />Services
+               </h1>
+               <img
+                  src="./images/services.png"
+                  alt="services"
+                  class="w-full xl:w-[466px] h-[415px] object-cover mt-16"
+               />
+            </div>
+            <div class="lg:max-w-sm xl:max-w-[700px] space-y-14 xl:mt-20">
+               <p class="hidden xl:block font-robotomono text-lg leading-7 max-w-xl">
+                  Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer. That's why
+                  you always leave a note! No… but I'd like to be asked! Oh, you're gonna be in a coma, all right.
+               </p>
+               <div class="grid xl:grid-cols-2 gap-x-20 gap-y-10">
+                  <div>
+                     <h3 class="font-poppins font-semibold text-2xl my-5 lg:text-lg xl:text-2xl">Digital</h3>
+                     <p class="font-robotomono font-normal lg:text-sm xl:text-base">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, adipisci distinctio. Vero,
+                        molestiae itaque. Veritatis, recusandae. Doloribus consequatur repellat accusamus soluta dolorum
+                        error placeat.
+                     </p>
+                  </div>
+                  <div>
+                     <h3 class="font-poppins font-semibold text-2xl my-5 lg:text-lg xl:text-2xl">Branding</h3>
+                     <p class="font-robotomono font-normal lg:text-sm xl:text-base">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis ab iusto error magni, eos
+                        eligendi temporibus id.
+                     </p>
+                  </div>
+                  <div>
+                     <h3 class="font-poppins font-semibold text-2xl my-5 lg:text-lg xl:text-2xl">Photography</h3>
+                     <p class="font-robotomono font-normal lg:text-sm xl:text-base">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quasi mollitia excepturi
+                        harum iure.
+                     </p>
+                  </div>
+                  <div class="xl:mt-[-5rem]">
+                     <h3 class="font-poppins font-semibold text-2xl my-5 lg:text-lg xl:text-2xl">Video</h3>
+                     <p class="font-robotomono font-normal lg:text-sm xl:text-base">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque quod asperiores dolore eveniet
+                        voluptas, quasi, consectetur dolor repellendus, iusto tenetur eius deserunt iure maiores labore.
+                        Aliquam voluptate illo impedit voluptatum ab recusandae amet eum quasi et. Eligendi atque nulla
+                        fuga, molestias illo quidem.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- *******PRICES******* -->
+         <section class="p-8 lg:px-24 xl:px-32 bg-[#1e252c] text-white space-y-10">
+            <h1
+               class="
+                  font-eczar
+                  text-[60px]
+                  md:text-[86px]
+                  font-semibold
+                  text-stroke-white
+                  leading-[85px]
+                  mt-10
+                  xl:mb-20
+               "
+            >
+               Pricing
+            </h1>
+            <div class="pb-20 grid lg:grid-cols-3">
+               <div class="border-[1px] px-8 py-12 flex space-x-5 lg:space-x-0 lg:px-0 lg:py-8">
+                  <p
+                     class="
+                        uppercase
+                        font-poppins font-medium
+                        text-sm
+                        tracking-widest
+                        -rotate-90
+                        h-5
+                        mt-4
+                        lg:w-10 lg:mt-5
+                     "
+                  >
+                     Basic
+                  </p>
+                  <div class="space-y-10">
+                     <h1 class="font-poppins text-3xl tracking-widest">$9.99</h1>
+                     <p class="font-robotomono text-[15px] leading-7">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur.
+                     </p>
+                     <div>
+                        <div class="flex items-center space-x-2 font-robotomono text-[15px] leading-7">
+                           <div class="w-5 h-[2px] bg-white"></div>
+                           <p>1 User</p>
+                        </div>
+                        <div class="flex items-center space-x-2 font-robotomono text-[15px] leading-7">
+                           <div class="w-5 h-[2px] bg-white"></div>
+                           <p>100 MB Space</p>
+                        </div>
+                        <div class="flex items-center space-x-2 font-robotomono text-[15px] leading-7">
+                           <div class="w-5 h-[2px] bg-white"></div>
+                           <p>5 Invoices per/month</p>
+                        </div>
+                        <div class="flex items-center space-x-2 font-robotomono text-[15px] leading-7">
+                           <div class="w-5 h-[2px] bg-white"></div>
+                           <p>Basic Support</p>
+                        </div>
+                     </div>
+                     <a href="" class="btn hover:bg-white hover:text-[#1e252c] transition duration-300 ease-in"
+                        >Subscribe</a
+                     >
+                  </div>
+               </div>
+
+               <div
+                  class="
+                     border-[1px]
+                     px-8
+                     py-12
+                     flex
+                     space-x-5
+                     lg:space-x-0
+                     relative
+                     overflow-hidden
+                     lg:scale-y-110 lg:px-0 lg:py-8
+                  "
+               >
+                  <p
+                     class="
+                        uppercase
+                        font-poppins font-medium
+                        text-sm
+                        tracking-widest
+                        -rotate-90
+                        h-5
+                        mt-7
+                        lg:w-10 lg:mt-14
+                     "
+                  >
+                     Standard
+                  </p>
+                  <div
+                     class="
+                        absolute
+                        uppercase
+                        rotate-45
+                        tracking-[3px]
+                        text-xs
+                        bg-white
+                        text-black
+                        px-10
+                        py-4
+                        font-bold
+                        -right-14
+                        top-6
+                     "
+                  >
+                     Most wanted
+                  </div>
+                  <div class="space-y-10">
+                     <h1 class="font-poppins text-3xl tracking-widest">$19.99</h1>
+                     <p class="font-robotomono text-[15px] leading-7">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur.
+                     </p>
+                     <div>
+                        <div class="flex items-center space-x-2 font-robotomono text-[15px] leading-7">
+                           <div class="w-5 h-[2px] bg-white"></div>
+                           <p>5 Users</p>
+                        </div>
+                        <div class="flex items-center space-x-2 font-robotomono text-[15px] leading-7">
+                           <div class="w-5 h-[2px] bg-white"></div>
+                           <p>500 MB Space</p>
+                        </div>
+                        <div class="flex items-center space-x-2 font-robotomono text-[15px] leading-7">
+                           <div class="w-5 h-[2px] bg-white"></div>
+                           <p>15 Invoices per/month</p>
+                        </div>
+                        <div class="flex items-center space-x-2 font-robotomono text-[15px] leading-7">
+                           <div class="w-5 h-[2px] bg-white"></div>
+                           <p>Standard Support</p>
+                        </div>
+                     </div>
+                     <a href="" class="btn hover:bg-white hover:text-[#1e252c] transition duration-300 ease-in"
+                        >Subscribe</a
+                     >
+                  </div>
+               </div>
+
+               <div class="border-[1px] px-8 py-12 flex space-x-5 lg:space-x-0 lg:px-0 lg:py-8">
+                  <p
+                     class="
+                        uppercase
+                        font-poppins font-medium
+                        text-sm
+                        tracking-widest
+                        -rotate-90
+                        h-5
+                        mt-7
+                        lg:w-10 lg:mt-11
+                     "
+                  >
+                     Premium
+                  </p>
+                  <div class="space-y-10">
+                     <h1 class="font-poppins text-3xl tracking-widest">$29.99</h1>
+                     <p class="font-robotomono text-[15px] leading-7">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur.
+                     </p>
+                     <div>
+                        <div class="flex items-center space-x-2 font-robotomono text-[15px] leading-7">
+                           <div class="w-5 h-[2px] bg-white"></div>
+                           <p>10 Users</p>
+                        </div>
+                        <div class="flex items-center space-x-2 font-robotomono text-[15px] leading-7">
+                           <div class="w-5 h-[2px] bg-white"></div>
+                           <p>1 GB Space</p>
+                        </div>
+                        <div class="flex items-center space-x-2 font-robotomono text-[15px] leading-7">
+                           <div class="w-5 h-[2px] bg-white"></div>
+                           <p>25 Invoices per/month</p>
+                        </div>
+                        <div class="flex items-center space-x-2 font-robotomono text-[15px] leading-7">
+                           <div class="w-5 h-[2px] bg-white"></div>
+                           <p>Premium Support</p>
+                        </div>
+                     </div>
+                     <a href="" class="btn hover:bg-white hover:text-[#1e252c] transition duration-300 ease-in"
+                        >Subscribe</a
+                     >
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- *******TESTIMONIALS******* -->
+         <section class="p-8 lg:px-24 xl:px-32 xl:space-y-20 border-b-[1px] border-gray-50 shadow-sm pb-20">
+            <h1
+               class="
+                  hidden
+                  lg:block
+                  mt-8
+                  mr-auto
+                  ml-0
+                  font-eczar font-bold
+                  lg:text-[100px] lg:leading-[100px]
+                  xl:text-[120px] xl:leading-[120px]
+                  text-stroke text-right
+               "
+            >
+               They said <br />what?
+            </h1>
+            <div class="relative mt-5 md:flex justify-between xl:justify-start">
+               <img
+                  src="./images/testimonial1.png"
+                  alt="person img"
+                  class="md:w-[255px] md:h-[240px] lg:w-[300px] lg:h-[300px] xl:w-[355px] xl:h-[340px] w-full"
+               />
+               <div class="md:w-1/2 xl:pl-28">
+                  <div
+                     class="
+                        absolute
+                        left-40
+                        bottom-[180px]
+                        md:bottom-36 md:left-56
+                        lg:bottom-52 lg:left-72
+                        xl:bottom-[250px] xl:left-[340px]
+                     "
+                  >
+                     <i class="fas fa-quote-left text-8xl text-stroke"></i>
+                  </div>
+                  <p class="font-robotomono leading-7 mt-16 lg:text-xl">
+                     Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his nice trailer."
+                  </p>
+                  <h6 class="font-poppins font-semibold text-2xl leading-10 pt-4 text-right md:text-lg">Anna Lee</h6>
+                  <h4 class="uppercase text-xs tracking-widest leading-5 font-medium text-right">
+                     Ux designer, Toptal
+                  </h4>
+               </div>
+            </div>
+            <div class="relative mt-10 md:flex justify-between xl:justify-end">
+               <img
+                  src="./images/testimonial2.png"
+                  alt="person img"
+                  class="md:w-[255px] md:h-[240px] lg:w-[300px] lg:h-[300px] xl:w-[355px] xl:h-[340px] w-full"
+               />
+               <div class="md:w-1/2 xl:pl-28">
+                  <div
+                     class="
+                        absolute
+                        left-40
+                        bottom-[150px]
+                        md:bottom-36 md:left-56
+                        lg:bottom-52 lg:left-72
+                        xl:bottom-[250px] xl:left-[618px]
+                     "
+                  >
+                     <i class="fas fa-quote-left text-8xl text-stroke"></i>
+                  </div>
+                  <p class="font-robotomono leading-7 mt-16 lg:text-xl">
+                     Get me a vodka rocks. And a piece of toast. Marry me."
+                  </p>
+                  <h6 class="font-poppins font-semibold text-2xl leading-10 pt-4 text-right md:text-lg">Bruna Jax</h6>
+                  <h4 class="uppercase text-xs tracking-widest leading-5 font-medium text-right">Designer, And Co</h4>
+               </div>
+            </div>
+            <div class="relative mt-10 md:flex justify-between xl:justify-center xl:flex-row-reverse">
+               <img
+                  src="./images/testimonial3.png"
+                  alt="person img"
+                  class="md:w-[255px] md:h-[240px] lg:w-[300px] lg:h-[300px] xl:w-[355px] xl:h-[340px] w-full"
+               />
+               <div class="md:w-1/2 xl:pr-28">
+                  <div
+                     class="
+                        absolute
+                        left-40
+                        bottom-[151px]
+                        md:bottom-36 md:left-56
+                        lg:bottom-52 lg:left-72
+                        xl:bottom-[250px] xl:left-[690px]
+                     "
+                  >
+                     <i class="fas fa-quote-left text-8xl text-stroke"></i>
+                  </div>
+                  <p class="font-robotomono leading-7 mt-16 lg:text-xl">
+                     Did you enjoy your meal, Mom? You drank it fast enough."
+                  </p>
+                  <h6 class="font-poppins font-semibold text-2xl leading-10 pt-4 text-right xl:text-left md:text-lg">
+                     John Paraian
+                  </h6>
+                  <h4 class="uppercase text-xs tracking-widest leading-5 font-medium text-right xl:text-left">
+                     Web developer, Upwork
+                  </h4>
+               </div>
+            </div>
+         </section>
+         <!-- *******CTA******* -->
+         <section class="lg:flex items-center lg:my-20">
+            <div class="lg:w-1/2">
+               <img src="./images/cta.png" alt="leaves img" class="hidden lg:block w-full h-full object-cover" />
+            </div>
+            <div
+               class="
+                  bg-hero bg-cover bg-center bg-no-repeat
+                  lg:bg-none
+                  text-white
+                  lg:text-[#1e252c]
+                  px-8
+                  py-16
+                  space-y-5
+                  lg:w-1/2 lg:pl-16
+                  xl:px-40
+               "
+            >
+               <h1 class="font-poppins font-semibold text-3xl">I care deeply for nature.</h1>
+               <p class="robotomono leading-7">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, eveniet! Nihil ex consectetur animi
+                  harum quasi dolores tempore similique vel!
+               </p>
+               <a
+                  href=""
+                  class="
+                     btn
+                     lg:border-[#1e252c] lg:hover:bg-green-900 lg:hover:text-white
+                     transition
+                     duration-300
+                     ease-in
+                  "
+                  >Subscribe</a
+               >
+            </div>
+         </section>
+         <!-- *******CLIENTS******* -->
+         <section class="p-8 lg:px-24 xl:px-32 bg-[#1e252c] py-16">
+            <h1
+               class="
+                  font-eczar font-bold
+                  text-5xl
+                  lg:text-[60px] lg:leading-[80px]
+                  xl:text-[86px] xl:leading-[100px]
+                  text-stroke-white
+                  lg:max-w-2xl
+                  xl:max-w-3xl
+                  mb-14
+               "
+            >
+               We worked with the best of the best
+            </h1>
+            <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-20">
+               <img src="./images/upwork.png" alt="" class="brands md:h-[100px]" />
+               <img src="./images/starbucks.png" alt="" class="brands md:h-[100px]" />
+               <img src="./images/psg.png" alt="" class="brands lg:h-[100px]" />
+               <img src="./images/nike.png" alt="" class="brands lg:h-[100px]" />
+               <img src="./images/netflix.png" alt="" class="brands lg:h-[100px]" />
+               <img src="./images/mc.png" alt="" class="brands lg:h-[100px]" />
+               <img src="./images/fiverr.png" alt="" class="brands lg:h-[100px]" />
+               <img src="./images/cocacola.png" alt="" class="brands lg:h-[100px]" />
+               <img src="./images/apple.png" alt="" class="brands lg:h-[100px]" />
+               <img src="./images/adidas.png" alt="" class="brands lg:h-[100px]" />
+               <img src="./images/gucci.png" alt="" class="brands lg:h-[100px]" />
+               <img src="./images/rolex.png" alt="" class="brands lg:h-[100px]" />
+            </div>
+         </section>
+         <!-- *******FOOTER******* -->
+         <footer class="p-8 lg:px-24 xl:px-32 pt-20 bg-[#1e252c] text-gray-300">
+            <div class="md:flex justify-between items-center">
+               <div class="w-[62px] h-[50px] mx-auto md:m-0 mb-10">
+                  <a href="./index.html">
+                     <img src="./images/logo black.png" alt="logo" class="filter invert" />
+                  </a>
+               </div>
+               <ul
+                  class="
+                     flex
+                     items-center
+                     space-x-5
+                     uppercase
+                     font-poppins
+                     text-xs
+                     leading-10
+                     tracking-widest
+                     justify-center
+                  "
+               >
+                  <li class="transform hover:scale-110"><a href="./index.html">home</a></li>
+                  <li class="w-9 h-[1px] bg-gray-300"></li>
+                  <li class="transform hover:scale-110"><a href="./about.html" class="hover:scale-105">about us</a></li>
+                  <li class="w-9 h-[1px] bg-gray-300"></li>
+                  <li class="transform hover:scale-110">
+                     <a href="./contact.html" class="hover:scale-105">contact us</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="flex justify-center items-center text-xl text-stroke-white pt-10">
+               <i class="cursor-pointer fab fa-facebook-f"></i>
+               <i class="cursor-pointer mx-4 fab fa-twitter"></i>
+               <i class="cursor-pointer fab fa-instagram"></i>
+            </div>
+         </footer>
+      </div>
+      <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+      <script src="main.js"></script>
+   </body>
+</html>

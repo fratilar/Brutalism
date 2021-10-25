@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Contact</title>
+      <script src="https://kit.fontawesome.com/6fdbf9550e.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="./public/tailwind.css" />
+   </head>
+   <body>
+      <div class="p-8 lg:px-24 xl:px-32 bg-[#1e252c] min-h-screen">
+         <!-- ********MENU PAGE******** -->
+         <div
+            id="menu"
+            class="
+               min-h-screen
+               transform
+               -translate-x-full
+               transition
+               duration-300
+               ease-out
+               fixed
+               inset-0
+               bg-white
+               z-50
+            "
+         >
+            <div class="p-8 lg:px-24 xl:px-32">
+               <!-- ********NAVBAR******** -->
+               <nav class="flex items-center justify-between">
+                  <div>
+                     <a href="./index.html">
+                        <img src="./images/logo black.png" alt="logo" class="cursor-pointer" />
+                     </a>
+                  </div>
+                  <div>
+                     <i id="closeBtn" class="fas fa-times text-2xl cursor-pointer"></i>
+                  </div>
+               </nav>
+               <div class="lg:ml-28">
+                  <ul class="mt-16 lg:mt-14 space-y-10 lg:space-y-5 text-[#1e252c]">
+                     <li>
+                        <a
+                           href="./index.html"
+                           class="inline-flex items-center text-4xl leading-[70px] font-semibold font-eczar space-x-5"
+                        >
+                           <p class="font-poppins text-xs -rotate-90 h-5">01</p>
+                           <h2 class="link-work text-[52px] lg:font-semibold lg:leading-[92px]">Projects</h2>
+                        </a>
+                     </li>
+                     <li>
+                        <a
+                           href="./about.html"
+                           class="inline-flex items-center text-4xl leading-[70px] font-semibold font-eczar space-x-5"
+                        >
+                           <p class="font-poppins text-xs -rotate-90 h-5">02</p>
+                           <h2 class="link-work text-[52px] lg:font-semibold lg:leading-[92px]">About</h2>
+                        </a>
+                     </li>
+                     <li>
+                        <a
+                           href=""
+                           class="inline-flex items-center text-4xl leading-[70px] font-semibold font-eczar space-x-5"
+                        >
+                           <p class="font-poppins text-xs -rotate-90 h-5">03</p>
+                           <h2 class="link-work text-[52px] lg:font-semibold lg:leading-[92px]">Blog</h2>
+                        </a>
+                     </li>
+                     <li>
+                        <a
+                           href="./contact.html"
+                           class="inline-flex items-center text-4xl leading-[70px] font-semibold font-eczar space-x-5"
+                        >
+                           <p class="font-poppins text-xs -rotate-90 h-5">04</p>
+                           <h2 class="link-work active text-[52px] lg:font-semibold lg:leading-[92px]">Contact us</h2>
+                        </a>
+                     </li>
+                  </ul>
+                  <p
+                     class="
+                        mt-5
+                        uppercase
+                        text-xs
+                        tracking-[3px]
+                        font-poppins
+                        p-1
+                        inline-block
+                        border-b-2 border-[#1e252c]
+                     "
+                  >
+                     email us. we need a coffee
+                  </p>
+                  <div class="flex items-center text-xl text-[#1e252c] text-stroke pt-10">
+                     <i class="cursor-pointer fab fa-facebook-f"></i>
+                     <i class="cursor-pointer mx-4 fab fa-twitter"></i>
+                     <i class="cursor-pointer fab fa-instagram"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- ********NAVBAR******** -->
+         <nav class="flex items-center justify-between">
+            <div>
+               <a href="./index.html">
+                  <img src="./images/logo black.png" alt="logo" class="filter invert cursor-pointer" />
+               </a>
+            </div>
+            <div class="flex items-center">
+               <h1 class="uppercase text-xs pr-4 tracking-widest font-medium font-poppins text-gray-300">Menu</h1>
+               <img id="menuBtn" class="cursor-pointer filter invert" src="./images/hamburger menu.png" alt="menu" />
+            </div>
+         </nav>
+         <div class="lg:flex lg:justify-between xl:justify-evenly items-center xl:h-[calc(100vh-114px)]">
+            <div class="text-gray-300 space-y-12 mt-10">
+               <h3 class="font-poppins text-sm tracking-[4px] uppercase">Contact us</h3>
+               <div class="space-y-4">
+                  <p class="font-robotomono text-xl">
+                     767 Fifth Ave. <br />
+                     New York, NY 10153
+                  </p>
+                  <p class="font-robotomono text-xl">+123 456 789</p>
+                  <p class="font-robotomono text-xl">email@example.com</p>
+               </div>
+               <div class="space-y-4">
+                  <h3 class="font-poppins text-sm tracking-[4px] uppercase">Follow us</h3>
+                  <div class="flex items-center text-sm text-stroke-white">
+                     <i class="cursor-pointer fab fa-facebook-f"></i>
+                     <i class="cursor-pointer mx-4 fab fa-twitter"></i>
+                     <i class="cursor-pointer fab fa-instagram"></i>
+                  </div>
+               </div>
+            </div>
+            <div class="text-gray-300 space-y-12 mt-10">
+               <h1 class="font-poppins text-3xl leading-[53px] xl:text-[40px] xl:leading-[50px] max-w-[80%]">
+                  Interested in working with us?
+               </h1>
+               <form class="max-w-[540px]">
+                  <label for="name" class="uppercase text-sm leading-5 tracking-[4px]">
+                     Name
+                     <input
+                        class="
+                           mb-10
+                           focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent
+                           w-full
+                           bg-transparent
+                           border-b-2 border-[#d1d5d8]
+                           py-2
+                        "
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="Your Name"
+                     />
+                  </label>
+                  <label for="email" class="uppercase text-sm leading-5 tracking-[4px]">
+                     Email
+                     <input
+                        class="
+                           mb-10
+                           focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent
+                           w-full
+                           bg-transparent
+                           border-b-2 border-[#d1d5d8]
+                           py-2
+                           active:bg-transparent
+                        "
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Your Email"
+                     />
+                  </label>
+                  <label for="text" class="uppercase text-sm leading-5 tracking-[4px]">
+                     Message
+                     <textarea
+                        class="
+                           w-full
+                           focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent
+                           bg-transparent
+                           border-b-2 border-[#d1d5d8]
+                           py-2
+                           active-visible:bg-gray-100
+                        "
+                        name="message"
+                        id="text"
+                        cols="40"
+                        rows="5"
+                        placeholder="Your Message"
+                     ></textarea>
+                  </label>
+                  <button
+                     type="submit"
+                     class="btn mt-10 hover:bg-white hover:text-gray-500 transition duration-300 ease-in"
+                  >
+                     Send
+                  </button>
+               </form>
+            </div>
+         </div>
+      </div>
+      <script src="./menu.js"></script>
+   </body>
+</html>
