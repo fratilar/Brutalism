@@ -1129,7 +1129,7 @@ video {
 }
 
 .bg-hero{
-  background-image: url('/images/ctabg.gif');
+  background-image: url('../images/ctabg.gif');
 }
 
 .bg-cover{
@@ -1533,6 +1533,10 @@ video {
 
 .function {
   transform: translateX(0);
+}
+
+.bg-safari {
+  background: url("../images/ctabg.gif");
 }
 
 .hover\:scale-110:hover{
