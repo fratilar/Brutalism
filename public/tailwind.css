@@ -1315,8 +1315,8 @@ video {
   line-height: 2.25rem;
 }
 
-.text-\[86px\]{
-  font-size: 86px;
+.text-\[60px\]{
+  font-size: 60px;
 }
 
 .text-\[74px\]{
@@ -1330,10 +1330,6 @@ video {
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
-}
-
-.text-\[60px\]{
-  font-size: 60px;
 }
 
 .font-semibold{
@@ -1685,13 +1681,13 @@ video {
     font-size: 10px;
   }
 
+  .md\:text-\[86px\]{
+    font-size: 86px;
+  }
+
   .md\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-\[86px\]{
-    font-size: 86px;
   }
 }
 
