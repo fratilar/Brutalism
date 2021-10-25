@@ -48,5 +48,11 @@
    transform: translateX(0);
 }
 .bg-safari {
-   background: url("../images/ctabg.gif");
+   background-image: url("../images/ctabg.gif");
+   background-repeat: no-repeat;
+   -o-background-size: cover;
+   -moz-background-size: cover;
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-position: center;
 }

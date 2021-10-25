@@ -1128,22 +1128,6 @@ video {
   background-color: rgba(30, 37, 44, var(--tw-bg-opacity));
 }
 
-.bg-hero{
-  background-image: url('../images/ctabg.gif');
-}
-
-.bg-cover{
-  background-size: cover;
-}
-
-.bg-center{
-  background-position: center;
-}
-
-.bg-no-repeat{
-  background-repeat: no-repeat;
-}
-
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -1536,7 +1520,10 @@ video {
 }
 
 .bg-safari {
-  background: url("../images/ctabg.gif");
+  background-image: url("../images/ctabg.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .hover\:scale-110:hover{

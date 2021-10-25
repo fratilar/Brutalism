@@ -9,9 +9,6 @@ module.exports = {
             eczar: "'Eczar',serif",
             robotomono: "'Roboto Mono',monospace",
          },
-         backgroundImage: {
-            hero: "url('../images/ctabg.gif')",
-         },
       },
    },
    variants: {
